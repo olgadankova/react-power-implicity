@@ -1,0 +1,41 @@
+@use "../../App.scss"as *;
+
+.navbar {
+    width: 100%;
+    padding: 32px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__item {
+        list-style: none;
+    }
+
+    &__link {
+        font-size: 18px;
+        line-height: 16px;
+        font-weight: 600;
+        color: #A0A3A7;
+        text-decoration: none;
+    }
+
+    &__btn--download {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-self: flex-end;
+        padding: 16px 24px;
+        font-size: 18px;
+        border-radius: 50px;
+        line-height: 16px;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        color: #24282E;
+        cursor: pointer;
+    }
+}
