@@ -5,8 +5,10 @@
 }
 
 body {
+  max-width: 1920px;
+  max-height: 1288px;
   align-items: center;
-  height: 100vh;
+  // height: 100vh;
   font-family: 'Montserrat', sans-serif;
   background: linear-gradient(124.53deg, #fc3f5f 0%, #7d61ff 100.32%);
 }

@@ -1,7 +1,9 @@
 .wrapper {
   width: 90vw;
+  max-width: 1410px;
   height: 90vh;
-  margin: 5vh auto;
+  max-height: 1010px;
+  margin: 10vh auto;
   align-items: center;
   overflow: hidden;
   background: linear-gradient(180deg, rgba(43, 34, 21, 0.8) -1.22%, #22282e 101.33%);
